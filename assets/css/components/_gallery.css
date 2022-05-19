@@ -1,0 +1,24 @@
+.gallery {
+  padding: 1.25rem;
+  padding-left: 0;
+}
+
+.gallery ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery ul li {
+  margin-left: 1.5rem;
+}
+
+.gallery ul li:first-child {
+  margin-left: 0;
+}
+
+.gallery ul li a img {
+  border: 6px solid #fff;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 10rem;
+}
